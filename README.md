@@ -1,6 +1,6 @@
 # Medical Chatbot with RAG Architecture
 
-A sophisticated medical question-answering system that leverages Retrieval-Augmented Generation (RAG) to provide accurate and context-aware medical information. This application combines the power of large language models with vector search to deliver precise answers to medical queries.
+A medical question-answering system that leverages Retrieval-Augmented Generation (RAG) to provide accurate and context-aware medical information. This application combines the power of large language models with vector search to deliver precise answers to medical queries.
 
 ## 🚀 Key Features
 
