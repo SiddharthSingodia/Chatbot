@@ -1,6 +1,28 @@
-## Medical Chatbot (Flask + LangChain + Pinecone + Google GenAI)
+# Medical Chatbot with RAG Architecture
 
-A simple RAG-based medical chatbot. PDF content in `data/` is embedded into a Pinecone index and queried via LangChain using Google Gemini. The Flask app serves a minimal chat UI in `templates/chat.html`.
+A sophisticated medical question-answering system that leverages Retrieval-Augmented Generation (RAG) to provide accurate and context-aware medical information. This application combines the power of large language models with vector search to deliver precise answers to medical queries.
+
+## 🚀 Key Features
+
+- **Advanced RAG Pipeline**: Implements a robust Retrieval-Augmented Generation system for accurate medical information retrieval
+- **Multi-document Support**: Processes and indexes multiple PDF documents from the `data/` directory
+- **Semantic Search**: Utilizes Pinecone's vector database for efficient similarity search across medical documents
+- **State-of-the-Art LLM**: Powered by Google's Gemini model through LangChain for high-quality response generation
+- **Web Interface**: User-friendly Flask-based web interface for seamless interaction
+- **Scalable Architecture**: Designed for easy extension and integration with additional data sources
+- **Customizable Prompts**: Easily adjustable system prompts to tailor responses to medical domain requirements
+- **Efficient Chunking**: Smart text splitting to maintain context while processing large documents
+
+## 📊 Technical Architecture
+
+The application follows a modern microservices architecture with the following components:
+
+1. **Frontend**: Lightweight HTML/JS interface with responsive design
+2. **Backend**: Flask web server handling API requests
+3. **Vector Database**: Pinecone for efficient vector similarity search
+4. **Embedding Model**: `all-MiniLM-L6-v2` for creating document embeddings
+5. **LLM Integration**: Google's Gemini model for generating human-like responses
+6. **Document Processing**: Automated pipeline for PDF ingestion and text extraction
 
 ### Project Structure
 
